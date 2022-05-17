@@ -1,0 +1,43 @@
+---
+# Only change the student-name
+student-name: "FirstName MI Surname"
+
+
+# Don't change the following lines
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+quiz-number: 1
+output:
+  bookdown::pdf_document2:
+    template: quiz-template.tex
+---
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(out.width = '80%', fig.align = 'center')
+```
+
+
+# Item 1
+
+**Question**: What is the law of gravity 
+
+ a. Some things to consider
+ b. This quite alright
+ c. Yet another sub-item.
+
+```{r}
+plot(rnorm(1000))
+```
+
+
+# Item 2
+
+This is item number 2.
+
+
+$$
+\frac{\sum_{i=1}^{n}x_i}{\binom{a}{b}}
+$$
+
+\newpage
+
+# heheh
