@@ -16,8 +16,6 @@ It is assumed that you have installed
   tinytex::install_tinytex()
   ```
 
-
-
 ## Quiz Template: How to Use
 
 
